@@ -3,8 +3,9 @@ from procedureloggertools import *
 import tkinter as tk
 import tkinter.simpledialog
 
-username = 'jonlin'
+
 tk.Tk().withdraw()
+username = password = tkinter.simpledialog.askstring("Username", "Enter username:")
 password = tkinter.simpledialog.askstring("Password", "Enter password:", show='*')
 
 excel_file = "E:\OneDrive\Documents\procedurelog.xlsx"
