@@ -12,7 +12,7 @@ excel_file = "E:\OneDrive\Documents\procedurelog.xlsx"
 
 database = get_log_data(excel_file)
 
-browser = webdriver.Firefox(executable_path=r'C:\geckodriver\geckodriver.exe')
+browser = webdriver.Firefox(executable_path=r'geckodriver.exe')
 browser.get("https://www.new-innov.com/login/Login.aspx")
 
 login(browser, username, password)
