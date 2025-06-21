@@ -5,3 +5,5 @@ Requirements:
 
 Notes:
 After running the script, be sure to verify that data was entered correctly and then change column 9 in the excel spreadsheet to read "yes" instead of "no"
+
+Requires Selenium 3.141
